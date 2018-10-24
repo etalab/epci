@@ -1,0 +1,40 @@
+{
+  "name": "@etalab/epci",
+  "version": "0.0.0",
+  "description": "Établissements Publics de Coopération Intercommunale : données et outils",
+  "main": "index.js",
+  "repository": "git@github.com:etalab/epci.git",
+  "author": "Jérôme Desboeufs <jerome.desboeufs@data.gouv.fr>",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "bin",
+    "data",
+    "lib"
+  ],
+  "scripts": {
+    "lint": "xo",
+    "test": "yarn lint",
+    "build": "bin/build",
+    "prepare": "rimraf data && yarn build"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "node-xlsx": "^0.12.1",
+    "rimraf": "^2.6.2",
+    "write-json-file": "^3.0.2",
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  },
+  "engines": {
+    "node": ">= 8"
+  }
+}
