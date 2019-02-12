@@ -18,7 +18,7 @@
   "scripts": {
     "lint": "xo",
     "test": "yarn lint",
-    "build": "bin/build",
+    "build": "node build",
     "prepare": "rimraf data && yarn build"
   },
   "dependencies": {
