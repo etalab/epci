@@ -1,6 +1,6 @@
 {
   "name": "@etalab/epci",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Établissements Publics de Coopération Intercommunale : données et outils",
   "main": "index.js",
   "repository": "git@github.com:etalab/epci.git",
@@ -21,8 +21,7 @@
     "build": "node build",
     "prepare": "rimraf data && yarn build"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "lodash": "^4.17.11",
     "node-xlsx": "^0.14.1",
