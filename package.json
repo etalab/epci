@@ -25,10 +25,10 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "node-xlsx": "^0.12.1",
-    "rimraf": "^2.6.2",
-    "write-json-file": "^3.0.2",
-    "xo": "^0.23.0"
+    "node-xlsx": "^0.14.1",
+    "rimraf": "^2.6.3",
+    "write-json-file": "^3.1.0",
+    "xo": "^0.24.0"
   },
   "xo": {
     "semicolon": false,
